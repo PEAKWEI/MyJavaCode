@@ -3,8 +3,6 @@ package org.dgw.uidemo;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 /**
  * 
  * @author 武汉生物工程学院 by dgw
@@ -21,7 +19,7 @@ public class Uidemo {
 		        	*/
 					@Override
 					public void run() {
-						// TODO Auto-generated method stub
+						/*// TODO Auto-generated method stub
 						try {
 							UIManager.setLookAndFeel(new org.jvnet.substance.skin.SubstanceBusinessLookAndFeel());
 						} catch (UnsupportedLookAndFeelException e) {
@@ -29,7 +27,7 @@ public class Uidemo {
 							e.printStackTrace();
 						}
 						Uidemo.name in=new Uidemo().new name();
-						 in.init();
+						 in.init();*/
 						
 					}
 				});

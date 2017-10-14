@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="mychat/src"/>
+	<classpathentry kind="src" path="MyJdbc/src"/>
+	<classpathentry kind="src" path="NetWorkCode/src"/>
+	<classpathentry kind="src" path="SwingCalc/src"/>
+	<classpathentry kind="src" path="SwingCode/src"/>
+	<classpathentry kind="src" path="SwingNotepaid/src"/>
+	<classpathentry kind="src" path="SwingSeuity/src"/>
+	<classpathentry kind="src" path="SwingVerificationcode/src"/>
+	<classpathentry kind="lib" path="项目文档/计算器.jar"/>
+	<classpathentry kind="lib" path="MyJdbc/lib/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="lib" path="SwingCalc/lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="output" path="MyJdbc/bin"/>
+</classpath>
