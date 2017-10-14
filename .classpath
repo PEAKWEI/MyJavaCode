@@ -9,6 +9,7 @@
 	<classpathentry kind="src" path="SwingNotepaid/src"/>
 	<classpathentry kind="src" path="SwingSeuity/src"/>
 	<classpathentry kind="src" path="SwingVerificationcode/src"/>
+	<classpathentry kind="src" path="SwingTease"/>
 	<classpathentry kind="lib" path="项目文档/计算器.jar"/>
 	<classpathentry kind="lib" path="MyJdbc/lib/mysql-connector-java-5.1.40-bin.jar"/>
 	<classpathentry kind="lib" path="SwingCalc/lib/AbsoluteLayout.jar"/>
