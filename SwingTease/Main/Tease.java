@@ -13,9 +13,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 public class Tease extends JFrame {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 2645156605795276085L;
 	private static final int width=600;
 	private static final int height=400;
