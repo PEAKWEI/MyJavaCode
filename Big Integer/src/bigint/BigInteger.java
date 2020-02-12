@@ -226,7 +226,18 @@ public class BigInteger {
 	public static void main(String[] args) {
 		BigInteger parse = BigInteger.parse("123");
 	}
-
+	
+	public boolean StrToInteger(String str) {
+		StringBuffer buffer = new StringBuffer(str);
+		for(int i=0;i<buffer.length();i++) {
+			if(buffer.charAt(i)=='0') {
+				return false;
+			}
+		}
+		return true;
+		
+	}
+	
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -238,7 +249,8 @@ public class BigInteger {
 		}
 		String retval = front.digit + "";
 		for (DigitNode curr = front.next; curr != null; curr = curr.next) {
-			if (curr.digit == 0&&Integer.parseInt(retval)!=0)
+			//if (curr.digit == 0&&Integer.parseInt(retval)!=0)
+			if (curr.digit == 0&&StrToInteger(retval))
 				continue;
 			retval = curr.digit + retval;
 		}
